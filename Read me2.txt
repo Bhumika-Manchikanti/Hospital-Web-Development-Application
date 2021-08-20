@@ -1,0 +1,48 @@
+Team number: 7
+
+Team members: 
+K.Diwakar reddy - 18mis1051
+M.Bhumika       - 18mis1024
+T.Jayasri reddy - 18mis1020
+P.Vaishnavi     - 18mis1086
+
+Topic: HOSPITAL MANAGEMENT SYSTEM
+>Database name is webproject and connection established file is "connection.php".
+
+>main frame(hospital page) file name is hospitalpage.php
+ It contains 2 images along with some text format.
+ pic1.jpg and pic2.jpg
+ Click here is the a href given in this webpage to connect to next webpage
+
+>"hospitalimages.php" is the file which contains many images of hospitals("visit.jpg") to choose to login.
+ All the hospital images are linked with "hosital1.php".
+ For no to proceed  press the image "back.png" which is connected to  "hospitalpage.php" through a href.
+
+>In hospital1.php we have 4 frames.
+ frame1 which has doctor login as "dlogin.php"
+ dlogin.php has an image "dimage.jpg" and href "doctor" which contains a file doctorinfo.php.
+ doctorinfo.php contains an image loginregister.png where login is connected to doctorlogin.php 
+ and register is connected to newuserd.php through imagemapping and Next which is connected to "feedback.php" through a href.
+ If login is correct it will connect to pdetails.php else connect to doctorinfo.php.
+
+>frame2 which has patient login as "plogin.php"
+ plogin.php has an image "pimage.png" and href "patient" which contains a file patientinfo.php.
+ patientinfo.php contins an image loginregister.png where login is connected to patientlogin.php 
+ and register is connected to newuserp.php through imagemapping and Next which is connected to "feedback.php" through a href.
+ If login is correct it will connect to "ddetails.php" else connect to patientinfo.php.
+
+>frame3 which has pharmacy login as "phlogin.php"
+ phlogin.php has an image "phimage.png" and href "pharmacy" which contains pcal.php,
+ Next which is connected to "feedback.php" through a href and mail validation is done here.
+
+> frame4 which has marquee *click on above links.
+  It is the target frame for all 1,2,&3 frames.
+
+>"feedback.php" has 2 images "pic4.jpg" and "pic3.jpg".
+
+>"pic3.jpg" is connect to nextpage through imagemap where yes is connected to "feedbackform.php" and no is connected to main page "hospitalpage.php"
+
+>"feedbackform.html" has next connected to "hospitalpage.php" through a href and mail verification is done here.
+>"mail.php" is the file used for mail verification.
+
+
